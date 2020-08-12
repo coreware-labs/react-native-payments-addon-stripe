@@ -1,0 +1,56 @@
+{
+  "_from": "react-native-payments-addon-stripe",
+  "_id": "react-native-payments-addon-stripe@0.4.0",
+  "_inBundle": false,
+  "_integrity": "sha512-YElwGVzqmpURy3gtG1gQhmk+XJSKGB3bsD4bwfj+gGnIx/Q5AEtiKyji1wvgmHz1qdNHsBnQ4dJy1yJnEvGefg==",
+  "_location": "/react-native-payments-addon-stripe",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-payments-addon-stripe",
+    "name": "react-native-payments-addon-stripe",
+    "escapedName": "react-native-payments-addon-stripe",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-payments-addon-stripe/-/react-native-payments-addon-stripe-0.4.0.tgz",
+  "_shasum": "17760368f2fe2a6f351f033857ab8e28adfe94b0",
+  "_spec": "react-native-payments-addon-stripe",
+  "_where": "/Users/stefancoreware/Projects/OpeningAct",
+  "author": {
+    "name": "Naoufal Kadhom"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "React Native Payments add-on for processing payments with Stripe.",
+  "keywords": [
+    "react",
+    "react-native",
+    "react-native-payments",
+    "payments",
+    "stripe"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-payments-addon-stripe",
+  "reactNativePaymentsAddonConfig": {
+    "frameworks": [
+      "Stripe"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/naoufal/react-native-payments/tree/master/packages/react-native-payments-addon-stripe"
+  },
+  "scripts": {
+    "prepublish": "carthage update --platform ios",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.4.0"
+}
